@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +10,6 @@
 body {
     font-size: 100%;
     background: linear-gradient(68.15deg, #5b0a0a 11.62%, #ec0f0f 85.61%);
-    /* tempo do video 28:26*/
 } 
 
 .cabecalho {
@@ -44,8 +43,9 @@ body {
 
 .conteudo-primario {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    margin-left: 150px;
+    align-items: initial;
     justify-content: space-around;
 }
 
@@ -56,8 +56,121 @@ body {
 }
 
 .conteudo-primario-escrito-titulo {
-    font-family: 'Righteous', cursive;
+    font-family: 'Reggae One', cursive;
     font-weight: 400;
     font-size: 64px;
     color: aliceblue;
+}
+
+.conteudo-primario-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(250, 244, 234);
+}
+
+.conteudo-imagem {
+    height: 330px;
+    margin-top: 48px;
+    margin-left: 150px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+    margin-left: 150px; 
+    margin-right: 48px;  
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid aliceblue;
+    padding-top: 48px;
+    font-family: 'Sarala', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 6px;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+    margin-left: 150px; 
+    margin-right: 48px;  
+}
+
+.conteudo-final-titulo{
+    border-top: 0.4px solid aliceblue;
+    padding-top: 48px;
+    font-family: 'Sarala', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.conteudo-final-paragrafo {
+    font-family: 'Sarala', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 6px;
+}
+
+.formulario{
+    border-top: 0.4px solid aliceblue;
+
+}
+
+.conteudo-formulario {
+    background-color: rgb(250, 54, 54);
+    border-radius: 75px;
+    padding: 70px;
+    width: 550px;
+    height: 500px;
+    margin-top: 48px;
+    margin-left: 150px; 
+    margin-right: 48px;  
+    display: flex;
+    flex-direction: column;
+    gap: 24px;   
+}
+
+.formulario-titulo {
+    font-family: 'Reggae One', cursive;
+    font-weight: 400;
+    font-size: 64px; 
+    color: aliceblue;
+    margin-top: 0px;
+}
+
+.formulario-campos {
+    font-family: 'Sarala', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 6px;
+}
+
+.rodape {
+    border-top: 0.4px solid aliceblue;
+}
+
+.rodape-imagem {
+    height: 150px;
+    width: 165px;
+    display: block;
+    margin: 0 auto;
 }
